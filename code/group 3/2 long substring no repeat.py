@@ -1,3 +1,8 @@
+"""Given a string s, find the length of the longest substring that contains only unique characters (no repeating characters).
+
+A substring is a contiguous block of characters inside the string."""
+
+
 def length_of_longest_substring(s: str) -> int:
     char_set = set()
     start = 0

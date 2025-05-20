@@ -1,3 +1,7 @@
+"""Given an array of integers arr and a number k, find the maximum sum of any contiguous subarray of size k.
+
+A subarray means a continuous sequence of elements inside the array."""
+
 def max_sum_subarray_k(arr, k):
     max_sum = 0
     window_sum = 0
