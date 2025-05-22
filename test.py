@@ -1,20 +1,7 @@
 def test(s):
-    freq = {}
+    a = [1,2,3,4,5]
     
-    for i in s:
-        freq[i] = freq.get(i,0) + 1
-        
-    
-    top = 0
-    var = ""
-    
-    for r,v in freq.items():
-        if v > top :
-            top = v
-            var = r
-            
-    if var:
-        return var[0]
+    return a.index(30)if 3 in a else -1  
             
     
 print(test("success"))     
