@@ -1,26 +1,29 @@
 s = "this is a test a is a this is only a test"
 
+   
+
 def fun(s):
-    a = s.split()
-    print(a)
-    freeq = {}
+    words = s.split()
     
-    for char in a:
-        freeq[char] = freeq.get(char,0) +1
-    print(freeq) 
-    sorted_value = sorted(set(freeq.values()),reverse=True)
+    freeq = {}    
     
-    if len(sorted_value) < 2:
+    for char in words:
+        freeq[char] = freeq.get(char,0) + 1
+    
+    # freeq_list = sorted(set(freeq.values()),key=lambda x : -x)
+    freeq_list = sorted(set(freeq.values()), reverse=True)
+    
+
+    if len(freeq_list) < 2:
         return None
     
-    secondhighestvalue = sorted_value[1]
-   
-    for char in a:
-        if freeq[char] == secondhighestvalue :
-            return char
+    second_freeq = freeq_list[1]
+    
+    for i in words:
+        if freeq[i] == second_freeq:
+            return i
     
    
-            
 
 
 print(fun(s))
