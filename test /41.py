@@ -13,5 +13,5 @@ def find_any_subarray(arr, target):
     return None
 
 
-print(find_any_subarray([1,2,3,4,5,6],10))
+print(find_any_subarray([1,2,3,4,5,6],10)) # [1, 2, 3, 4]
 print(find_any_subarray([1,2,3,6,7],15))

@@ -23,3 +23,8 @@ k = 2
 subarrays = get_subarrays_with_sum_k(arr, k)
 for s in subarrays:
     print(s)
+
+# [1, 0, 1]
+# [1, 0, 1, 0]
+# [0, 1, 0, 1]
+# [1, 0, 1]

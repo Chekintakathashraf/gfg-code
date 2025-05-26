@@ -18,5 +18,5 @@ def find_all_subarrays(arr, target):
 
 
 
-print(find_all_subarrays([1,2,3,4,6,7],10))
+print(find_all_subarrays([1,2,3,4,6,7],10))  # [(0, 3), (3, 4)]
 print(find_all_subarrays([1,2,3,6,7],15))

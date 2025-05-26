@@ -12,5 +12,5 @@ def count_subarrays(arr, target):
     return count
 
 
-print(count_subarrays([1,2,3,4,6,7],10))
-print(count_subarrays([1,2,3,6,7],15))
+print(count_subarrays([1,2,3,4,6,7],10))  # 2
+print(count_subarrays([1,2,3,6,7],15)) # 0
