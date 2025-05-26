@@ -14,3 +14,26 @@ def fun(s):
             j = j-1
     return True
 print(fun(s))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
