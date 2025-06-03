@@ -1,0 +1,5 @@
+a = list((1,2))
+# a = tuple(())
+a = set({})
+# a = dict(())
+print(a)
